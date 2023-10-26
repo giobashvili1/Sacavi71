@@ -1,0 +1,106 @@
+@font-face{
+    font-family: "fonti";
+    src: url(./fonts/Inter-Regular.ttf);
+}
+.form{
+    width: 378px;
+height: 274px;
+border-radius: 4px;
+border: 1px solid #E0E0E0;
+background: #F5F5F5;
+margin-top: 150px;
+margin-left: 550px;
+padding-top: 25px;
+}
+span{
+    color: #616161;
+font-family: "fonti";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 25px;
+}
+.my_email{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #E0E0E0;
+background: #FFF;
+margin-left: 25px;
+margin-bottom: 10px;
+padding-left: 10px;
+}
+.my_email::placeholder{
+    color: #9E9E9E;
+font-family: "fonti";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.my_email:hover{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #BBB400;
+background: #FFF;
+}
+.my_password{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #E0E0E0;
+background: #FFF;
+margin-left: 25px;
+margin-bottom: 10px;
+padding-left: 10px;
+}
+.my_password::placeholder{
+    color: #9E9E9E;
+font-family: "fonti";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.my_password:hover{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #BBB400;
+background: #FFF;
+}
+.my_button{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border: none;
+border-radius: 10px;
+background: #FFD43A;
+margin-top: 20px;
+margin-left: 30px;
+color: #000;
+font-family: "fonti";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.my_button:hover{
+    width: 315px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 22.5px;
+background: #BBB400;
+color: #7C0000;
+font-family: "fonti";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
